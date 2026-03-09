@@ -21,9 +21,9 @@
 
   <h2>Information We Collect</h2>
   <ul>
-    <li><strong>Account information</strong> — if you choose to sign in, we collect your email address via Supabase Auth. Sign-in is optional; the app works without an account.</li>
-    <li><strong>Workout data</strong> — workouts you create or parse are stored locally on your device. If you are signed in, they are synced to our database so you can access them across devices.</li>
-    <li><strong>Workout text for AI parsing</strong> — when you submit a workout description to be parsed, the text is sent to our backend and processed by OpenAI's API. We do not store this text beyond the duration of the request.</li>
+    <li><strong>Account information</strong> — an account is required to use the AI workout parsing feature. We collect your email address via Supabase Auth. The manual timer works without an account.</li>
+    <li><strong>Workout data</strong> — workouts you create or parse are stored locally on your device and synced to our database when you are signed in, so you can access them across devices.</li>
+    <li><strong>Workout text for AI parsing</strong> — when you submit a workout description to be parsed, the text is sent to our backend and processed by OpenAI's API. A valid account session is required for this feature. We do not store the workout text beyond the duration of the request.</li>
     <li><strong>Crash and error reports</strong> — we use Sentry to collect anonymous crash reports that help us fix bugs. These reports do not include personally identifiable information.</li>
   </ul>
 

@@ -15,15 +15,16 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: March 9, 2026</p>
+  <p class="updated">Last updated: June 2, 2026</p>
 
   <p>AI WOD Timer ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your choices.</p>
 
   <h2>Information We Collect</h2>
   <ul>
-    <li><strong>Account information</strong> — an account is required to use the AI workout parsing feature. We collect your email address via Supabase Auth. The manual timer works without an account.</li>
+    <li><strong>Account information</strong> — an account is required to use the AI workout parsing feature and cross-device sync. We collect your email address and related authentication metadata via Supabase Auth. The manual timer works without an account.</li>
     <li><strong>Workout data</strong> — workouts you create or parse are stored locally on your device and synced to our database when you are signed in, so you can access them across devices.</li>
     <li><strong>Workout text for AI parsing</strong> — when you submit a workout description to be parsed, the text is sent to our backend and processed by OpenAI's API. A valid account session is required for this feature. We do not store the workout text beyond the duration of the request.</li>
+    <li><strong>Purchase and subscription data</strong> — if you subscribe to AI WOD Timer Pro, Apple processes your payment and manages subscription billing, renewal, trial eligibility, and cancellation through your App Store account. We use RevenueCat to receive subscription status, entitlement, and transaction-related metadata needed to unlock and maintain Pro access across the app.</li>
     <li><strong>Crash and error reports</strong> — we use Sentry to collect anonymous crash reports that help us fix bugs. These reports do not include personally identifiable information.</li>
   </ul>
 
@@ -37,6 +38,8 @@
   <h2>Third-Party Services</h2>
   <ul>
     <li><strong>Supabase</strong> — authentication and cloud sync. <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a></li>
+    <li><strong>Apple</strong> — App Store purchase processing, subscription billing, trial eligibility, renewal, cancellation, and refund handling. <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></li>
+    <li><strong>RevenueCat</strong> — subscription status and entitlement processing for Pro access. <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></li>
     <li><strong>OpenAI</strong> — AI workout parsing. <a href="https://openai.com/policies/privacy-policy" target="_blank">Privacy Policy</a></li>
     <li><strong>Sentry</strong> — crash reporting. <a href="https://sentry.io/privacy/" target="_blank">Privacy Policy</a></li>
   </ul>

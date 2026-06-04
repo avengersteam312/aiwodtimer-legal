@@ -15,7 +15,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 2, 2026</p>
+  <p class="updated">Last updated: June 3, 2026</p>
 
   <p>AI WOD Timer ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your choices.</p>
 
@@ -24,14 +24,15 @@
     <li><strong>Account information</strong> — an account is required to use the AI workout parsing feature and cross-device sync. We collect your email address and related authentication metadata via Supabase Auth. The manual timer works without an account.</li>
     <li><strong>Workout data</strong> — workouts you create or parse are stored locally on your device and synced to our database when you are signed in, so you can access them across devices.</li>
     <li><strong>Workout text for AI parsing</strong> — when you submit a workout description to be parsed, the text is sent to our backend and processed by OpenAI's API. A valid account session is required for this feature. We do not store the workout text beyond the duration of the request.</li>
+    <li><strong>Photos and images for AI parsing</strong> — when you photograph a whiteboard or workout so the app can read it, the image is sent to our backend, where text is extracted (OCR) and parsed, including processing by OpenAI's API. A valid account session is required. We do not retain the image beyond the duration of the request. Workout videos you record are saved to your device's photo library and are not uploaded to us.</li>
     <li><strong>Purchase and subscription data</strong> — if you subscribe to AI WOD Timer Pro, Apple processes your payment and manages subscription billing, renewal, trial eligibility, and cancellation through your App Store account. We use RevenueCat to receive subscription status, entitlement, and transaction-related metadata needed to unlock and maintain Pro access across the app.</li>
-    <li><strong>Crash and error reports</strong> — we use Sentry to collect anonymous crash reports that help us fix bugs. These reports do not include personally identifiable information.</li>
+    <li><strong>Crash and diagnostic reports</strong> — we use Sentry to collect anonymous crash, error, and performance diagnostics that help us fix bugs. These reports do not include personally identifiable information.</li>
   </ul>
 
   <h2>Information We Do Not Collect</h2>
   <ul>
     <li>We do not collect location data.</li>
-    <li>We do not collect health or fitness data from HealthKit.</li>
+    <li>We do not collect data from Apple HealthKit. Heart rate from a paired Bluetooth strap is shown live during your workout and is not stored or transmitted off your device.</li>
     <li>We do not sell or share your data with advertisers or third parties for marketing purposes.</li>
   </ul>
 
@@ -47,6 +48,9 @@
   <h2>Data Retention</h2>
   <p>If you delete your account, all associated workout data is permanently deleted from our servers within 30 days. Local data on your device is removed when you uninstall the app.</p>
 
+  <h2>Data Breach</h2>
+  <p>In the event of a breach that compromises your personal data, we will notify affected users without undue delay in accordance with applicable law.</p>
+
   <h2>Children's Privacy</h2>
   <p>The app is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
 
@@ -54,6 +58,6 @@
   <p>We may update this policy from time to time. The "Last updated" date at the top will reflect any changes. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
   <h2>Contact</h2>
-  <p>If you have questions about this privacy policy, please open an issue at our <a href="https://github.com/avengersteam312/ai-wod-timer" target="_blank">GitHub repository</a>.</p>
+  <p>If you have questions about this privacy policy, contact us at <a href="mailto:info@3devshub.com">info@3devshub.com</a>.</p>
 </body>
 </html>

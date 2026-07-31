@@ -1,6 +1,6 @@
 # Wyro — Legal
 
-Legal pages for [Wyro](https://apps.apple.com/app/ai-wod-timer).
+Legal pages for [Wyro](https://apps.apple.com/app/id6760238568).
 
 | Document | URL |
 |----------|-----|

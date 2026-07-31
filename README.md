@@ -1,6 +1,6 @@
-# AI WOD Timer — Legal
+# Wyro — Legal
 
-Legal pages for [AI WOD Timer](https://apps.apple.com/app/ai-wod-timer).
+Legal pages for [Wyro](https://apps.apple.com/app/ai-wod-timer).
 
 | Document | URL |
 |----------|-----|
